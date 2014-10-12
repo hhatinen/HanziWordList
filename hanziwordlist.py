@@ -4,10 +4,10 @@ cjk = characterlookup.CharacterLookup('T')
 
 ENTRIES_PER_ROW = 8
 LONELIES_PER_ROW = 16
-FILENAME = 'HSK3.txt'
-CAPTION = 'iKnow Words Indexed by Characters'
+INPUT_FILENAME = 'hsk3.txt'
+CAPTION = 'HSK3 Words indexed by characters'
 
-f = open(FILENAME, 'r')
+f = open(INPUT_FILENAME, 'r')
 
 words = []
 chars = {}
